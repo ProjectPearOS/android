@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="pear"
+          fetch="https://github.com/ProjectPearOS"
+          revision="13.0" />
+
+    <remove-project name="LineageOS/android" />
+    <project remote="pear" name="android" path="android" />
+
+    <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+    <project remote="pear" name="device_lineage_sepolicy" path="device/lineage/sepolicy" />
+
     <remove-project name="LineageOS/android_frameworks_base" />
     <project remote="pear" name="frameworks_base" path="frameworks/base" />
 
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project remote="pear" name="vendor_lineage" path="vendor/lineage" />
-
-    <remove-project name="LineageOS/android_device_lineage_sepolicy" />
-    <project remote="pear" name="device_lineage_sepolicy" path="device/lineage/sepolicy" />
 </manifest>

@@ -10,10 +10,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-13.0.0_r75" />
 
-  <remote name="pear"
-          fetch="https://github.com/ProjectPearOS/"
-          revision="13.0" />
-
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
