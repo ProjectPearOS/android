@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- adb legacy FunctionFS -->
+  <remove-project name="LineageOS/android_packages_modules_adb" />
+  <project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
+
+  <!-- BPF/CGroup Patches -->
+  <remove-project name="LineageOS/android_system_netd" />
+  <project name="LineageOS-UL/android_system_netd" path="system/netd" />
+
+  <remove-project name="platform/system/bpf" />
+  <project name="LineageOS-UL/android_system_bpf" path="system/bpf" />
+
+  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+  <project name="LineageOS-UL/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+
+  <remove-project name="platform/packages/modules/NetworkStack" />
+  <project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
+
+  <remove-project name="platform/frameworks/libs/net" />
+  <project name="LineageOS-UL/android_frameworks_libs_net" path="frameworks/libs/net" />
+
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="droid-legacy/android_system_core" path="system/core" />
+
+  <!-- DTB Tool -->
+  <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
+
+  <!-- Vintf -->
+  <remove-project name="LineageOS/android_kernel_configs" />
+  <project name="droid-legacy/android_kernel_configs" path="kernel/configs" />
+
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <project name="droid-legacy/android_hardware_interfaces" path="hardware/interfaces" />
+</manifest>
