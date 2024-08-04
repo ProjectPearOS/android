@@ -10,11 +10,14 @@
     <remove-project name="LineageOS/android_device_lineage_sepolicy" />
     <project name="device_lineage_sepolicy" path="device/lineage/sepolicy" remote="pear" />
 
+    <remove-project name="LineageOS/android_frameworks_base" />
+    <project name="frameworks_base" path="frameworks/base" remote="pear" />
+
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
     <project name="packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="pear" />
 
-    <remove-project name="LineageOS/android_frameworks_base" />
-    <project name="frameworks_base" path="frameworks/base" remote="pear" />
+    <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+    <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="pear" />
 
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project name="vendor_lineage" path="vendor/lineage" remote="pear" />
