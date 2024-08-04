@@ -31,4 +31,7 @@
 
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project name="vendor_lineage" path="vendor/lineage" remote="pear" />
+
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <project name="packages_apps_Settings" path="packages/apps/Settings" remote="pear" />
 </manifest>
