@@ -16,6 +16,11 @@
       <linkfile src="target" dest="build/target" />
       <linkfile src="tools" dest="build/tools" />
     </project>
+    <remove-project name="LineageOS/android_build_soong" </>
+    <project name="build_soong" path="build/soong" remote="pear" >
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
 
     <remove-project name="LineageOS/android_device_lineage_sepolicy" />
     <project name="device_pear_sepolicy" path="device/pear/sepolicy" remote="pear" />
