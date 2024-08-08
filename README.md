@@ -4,6 +4,9 @@ PearOS
 Getting started
 ---------------
 
+## Disclaimer
+# this project is currently wip and might not build successfully
+
 To get started with PearOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository, run:
